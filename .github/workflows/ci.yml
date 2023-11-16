@@ -2,11 +2,6 @@ name: CI/CT for each push
 
 on:
   push:
-    paths:
-      - '**.js'
-      - '**.ts'
-      - '**.json'
-      - '**/ci.yml'
     branches: [ main ]
   pull_request:
     branches: [ main ]
